@@ -1,0 +1,195 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hi", "hey", "what's up?", "good day"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?", "Good day!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "see you later", "goodbye", "take care"],
+        "responses": ["Goodbye!", "See you later!", "Take care!", "Bye!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks", "thank you", "much appreciated"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!"]
+      },
+      {
+        "tag": "age",
+        "patterns": ["how old are you?", "what's your age?", "tell me your age"],
+        "responses": ["I am an AI, I don't have an age.", "Age is just a number for me."]
+      },
+      {
+        "tag": "name",
+        "patterns": ["what's your name?", "who are you?", "tell me your name"],
+        "responses": ["I am GarvGPT.", "You can call me GarvGPT.", "My name is GarvGPT."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["what's the weather like?", "is it going to rain?", "what's the forecast?"],
+        "responses": ["Let me check the weather for you.", "Here's the latest weather report."]
+      },
+      {
+        "tag": "time",
+        "patterns": ["what time is it?", "current time", "tell me the time"],
+        "responses": ["The current time is [current time].", "It's [current time] right now."]
+      },
+      {
+        "tag": "date",
+        "patterns": ["what's the date today?", "current date", "tell me the date"],
+        "responses": ["Today's date is [current date].", "It's [current date] today."]
+      },
+      {
+        "tag": "location",
+        "patterns": ["where am I?", "what's my location?", "current location"],
+        "responses": ["You are currently in [current location].", "It looks like you are in [current location]."]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["tell me a joke", "make me laugh", "joke"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["help me", "I need assistance", "can you help me?"],
+        "responses": ["Of course, what do you need help with?", "I'm here to help, what do you need?"]
+      },
+      {
+        "tag": "personal_info",
+        "patterns": ["tell me about yourself", "who are you?", "what can you do?"],
+        "responses": ["I am an AI developed by OpenAI.", "I can assist you with various tasks and answer your questions."]
+      },
+      {
+        "tag": "health",
+        "patterns": ["how are you?", "are you okay?", "how's it going?"],
+        "responses": ["I'm just a bunch of code, but I'm functioning perfectly!", "I don't have feelings, but I'm here and ready to assist!"]
+      },
+      {
+        "tag": "hobby",
+        "patterns": ["what are your hobbies?", "what do you do for fun?", "tell me about your hobbies"],
+        "responses": ["I enjoy learning new things and helping people.", "My primary hobby is processing information."]
+      },
+      {
+        "tag": "news",
+        "patterns": ["what's the news?", "any news updates?", "latest news"],
+        "responses": ["Here are the latest news headlines.", "Let me get the current news for you."]
+      },
+      {
+        "tag": "compliment",
+        "patterns": ["you are great", "I like you", "you are awesome"],
+        "responses": ["Thank you!", "I appreciate it!", "You're too kind!"]
+      },
+      {
+        "tag": "shopping",
+        "patterns": ["I want to buy something", "online shopping", "where can I buy this?"],
+        "responses": ["You can try checking online stores like Amazon.", "Have you tried looking on eBay or TEMU?"]
+      },
+      {
+        "tag": "recommendation",
+        "patterns": ["can you recommend something?", "what do you suggest?", "any recommendations?"],
+        "responses": ["I recommend trying [suggestion].", "How about [suggestion]?"]
+      },
+      {
+        "tag": "food",
+        "patterns": ["I'm hungry", "what should I eat?", "any food suggestions?"],
+        "responses": ["How about trying a nice pizza?", "Sushi could be a great option!"]
+      },
+      {
+        "tag": "travel",
+        "patterns": ["I want to travel", "suggest a travel destination", "where should I go?"],
+        "responses": ["How about visiting Japan?", "Paris is always a great choice!"]
+      },
+      {
+        "tag": "education",
+        "patterns": ["tell me something educational", "learn something new", "educate me"],
+        "responses": ["Did you know that honey never spoils?", "The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes."]
+      },
+      {
+        "tag": "technology",
+        "patterns": ["tell me about technology", "latest tech news", "what's new in tech?"],
+        "responses": ["The latest iPhone has just been released.", "AI technology is advancing rapidly."]
+      },
+      {
+        "tag": "history",
+        "patterns": ["tell me a historical fact", "history lesson", "something about history"],
+        "responses": ["The Great Wall of China is over 13,000 miles long.", "The first human-made object to reach space was the V-2 rocket."]
+      },
+      {
+        "tag": "sports",
+        "patterns": ["latest sports news", "sports updates", "tell me about sports"],
+        "responses": ["The latest football match results are in.", "Here's the current sports news."]
+      },
+      {
+        "tag": "entertainment",
+        "patterns": ["latest movies", "new TV shows", "entertainment news"],
+        "responses": ["The latest blockbuster movie is now in theaters.", "Here's what's new on Netflix."]
+      },
+      {
+        "tag": "music",
+        "patterns": ["what's new in music?", "latest songs", "music news"],
+        "responses": ["The latest album from [artist] is trending.", "Here's the newest song on the charts."]
+      },
+      {
+        "tag": "games",
+        "patterns": ["any new games?", "game recommendations", "what should I play?"],
+        "responses": ["The latest game release is [game].", "You might enjoy playing [game]."]
+      },
+      {
+        "tag": "books",
+        "patterns": ["book recommendations", "latest books", "what should I read?"],
+        "responses": ["The latest bestseller is [book].", "You might enjoy reading [book]."]
+      },
+      {
+        "tag": "career",
+        "patterns": ["career advice", "job suggestions", "help with my career"],
+        "responses": ["Consider updating your resume and LinkedIn profile.", "Networking is key to finding new job opportunities."]
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["I need motivation", "inspire me", "give me a motivational quote"],
+        "responses": ["Believe in yourself and all that you are.", "The only way to do great work is to love what you do."]
+      },
+      {
+        "tag": "language",
+        "patterns": ["teach me a language", "how to say [word] in [language]?", "language tips"],
+        "responses": ["Here's how you say [word] in [language]: [translation].", "Learning a new language is a great skill!"]
+      },
+      {
+        "tag": "programming",
+        "patterns": ["teach me programming", "coding help", "how to code in [language]?"],
+        "responses": ["Here's a basic tutorial on [language].", "I can help you with coding in [language]."]
+      },
+      {
+        "tag": "exercise",
+        "patterns": ["suggest an exercise routine", "workout tips", "how to stay fit?"],
+        "responses": ["Try a mix of cardio and strength training.", "Consistency is key to staying fit."]
+      },
+      {
+        "tag": "pets",
+        "patterns": ["pet care tips", "how to take care of my pet", "suggest a pet"],
+        "responses": ["Regular vet check-ups are important.", "Consider adopting a pet from a shelter."]
+      },
+      {
+        "tag": "fashion",
+        "patterns": ["fashion tips", "latest trends", "what's in style?"],
+        "responses": ["The latest fashion trend is [trend].", "You might like this style: [style]."]
+      },
+      {
+        "tag": "beauty",
+        "patterns": ["beauty tips", "skincare advice", "makeup tips"],
+        "responses": ["Remember to moisturize daily.", "A good skincare routine is essential."]
+      },
+      {
+        "tag": "finance",
+        "patterns": ["financial advice", "how to save money", "investment tips"],
+        "responses": ["Consider creating a budget and sticking to it.", "Investing in diverse assets can be beneficial."]
+      },
+      {
+        "tag": "relationship",
+        "patterns": ["relationship advice", "dating tips", "how to improve my relationship?"],
+        "responses": ["Communication is key in any relationship.", "Always make time for each other."]
+      }
+    ]
+  }
+  
